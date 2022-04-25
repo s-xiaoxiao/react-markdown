@@ -4,6 +4,7 @@ import vitePluginImp from 'vite-plugin-imp'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"./",
   build: {
     outDir: "docs"
   },
